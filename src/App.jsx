@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import  Header from './components/Header'
 import  Switcher from './components/DrawerstyleSwitcher'
 import { Link } from 'react-router-dom'
+import mangal from '/mangal.svg' 
 
 function App() {
  
@@ -11,10 +12,10 @@ function App() {
     <>
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
     
-    <main className='px-4 py-2 flex flex-col'>
+    <main className='flex flex-col'>
       
-<Header/>
-<h1>ਧਨਾਸਰੀ ਮਹਲਾ ੫ ॥</h1>
+<Header name="ਧਨਾਸਰੀ ਮਹਲਾ ੫ ॥"/>
+<img src={mangal} />
 ਅਉਖੀ ਘੜੀ ਨ ਦੇਖਣ ਦੇਈ ਅਪਨਾ ਬਿਰਦੁ ਸਮਾਲੇ ॥
 ਹਾਥ ਦੇਇ ਰਾਖੈ ਅਪਨੇ ਕਉ ਸਾਸਿ ਸਾਸਿ ਪ੍ਰਤਿਪਾਲੇ ॥੧॥
 ਪ੍ਰਭ ਸਿਉ ਲਾਗਿ ਰਹਿਓ ਮੇਰਾ ਚੀਤੁ ॥ ਆਦਿ ਅੰਤਿ ਪ੍ਰਭੁ ਸਦਾ ਸਹਾਈ ਧੰਨੁ ਹਮਾਰਾ ਮੀਤੁ ॥ ਰਹਾਉ ॥

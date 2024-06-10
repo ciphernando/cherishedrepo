@@ -14,23 +14,24 @@ import {
     } from "@/components/ui/sheet"
     
     import { Menu } from 'lucide-react'
+import { Link } from 'react-router-dom'
     
 const Header = (props) => {
     return (
 
         <>
 
-            <header className='flex justify-between'>
+            <header className='flex justify-between items-center'>
                 <Sheet>
                     <SheetTrigger><Menu />  </SheetTrigger>
-                    <SheetContent className="flex flex-col" side="left">
+                    <SheetContent className="flex flex-col  items-start" side="left">
                         <SheetHeader>
-                            <SheetTitle>Cherished</SheetTitle>
+                            <SheetTitle className='ml-4' ><Link to='/' >Cherished</Link></SheetTitle>
                         </SheetHeader>
-                        <SheetDescription className="">
+                        <SheetDescription>
                             {/*  */}
                         </SheetDescription>
-                        <nav class="md:ml-auto flex flex-col mt-4">
+                        <nav class="md:ml-auto flex flex-col mt-4 justify-start items-start">
                             <HamLink  to="/japjisahib" name="ਜਪੁਜੀ ਸਾਹਿਬ"/>
                             <HamLink  to="/chaupaisahib" name="ਚੌਪਈ ਸਾਹਿਬ"/>
                             <HamLink  to="/brahamkavach" name="ਬ੍ਰਹਮ ਕਬੱਚ"/>
@@ -42,7 +43,7 @@ const Header = (props) => {
 
                     </SheetContent>
                 </Sheet>
-                <span className={`mt-1 text-slate-400 ${headingStyle}`}>{props.name}</span>
+                <span className={` text-slate-100 text-2xl ${headingStyle}`}>{props.name}</span>
                 <ModeToggle />
 
             </header>

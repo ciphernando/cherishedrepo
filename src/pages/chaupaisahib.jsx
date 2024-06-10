@@ -1,8 +1,11 @@
 import React from 'react'
 import  Header from '../components/Header'
+import { Button } from "@/components/ui/button"
+
 import { ThemeProvider } from "@/components/theme-provider"
 import  Switcher from '../components/DrawerstyleSwitcher'
 import { headingStyle } from '../theme'
+import { Link } from 'react-router-dom'
 const Chaupaisahib = () => {
   return (
     <ThemeProvider>
@@ -327,7 +330,7 @@ const Chaupaisahib = () => {
         {/* <br/> */}
         </h3> 
         {/* <br/> */}
-
+        <Button className='font-bold rounded-full mt-8' variant="outline"><Link to='/ardaas'>ਅਰਦਾਸ</Link></Button>
 
 
 
