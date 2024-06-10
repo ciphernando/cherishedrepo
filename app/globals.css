@@ -9,6 +9,10 @@
 *{
 font-family: tra;
 }
+::selection{
+background-color: #a78bfa40;  
+color: #8b5cf6;
+}
 body{
   text-align: center !important;
   font-size: 20px;
