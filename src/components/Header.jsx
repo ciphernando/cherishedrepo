@@ -26,7 +26,7 @@ const Header = (props) => {
                     <SheetTrigger><Menu />  </SheetTrigger>
                     <SheetContent className="flex flex-col  items-start" side="left">
                         <SheetHeader>
-                            <SheetTitle className='ml-4' ><Link to='/' >Cherished</Link></SheetTitle>
+                            <SheetTitle className='ml-4 en-font' ><Link to='/' >Cherished</Link></SheetTitle>
                         </SheetHeader>
                         <SheetDescription>
                             {/*  */}
