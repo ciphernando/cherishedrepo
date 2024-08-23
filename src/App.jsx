@@ -15,7 +15,7 @@ function App() {
     <main className='flex flex-col'>
       
 <Header name="ਧਨਾਸਰੀ ਮਹਲਾ ੫ ॥"/>
-<img src={mangal} className="w-48 h-48 object-contain"/>
+<img src={mangal} className="w-64 h-64 object-center object-contain"/>
 ਅਉਖੀ ਘੜੀ ਨ ਦੇਖਣ ਦੇਈ ਅਪਨਾ ਬਿਰਦੁ ਸਮਾਲੇ ॥
 ਹਾਥ ਦੇਇ ਰਾਖੈ ਅਪਨੇ ਕਉ ਸਾਸਿ ਸਾਸਿ ਪ੍ਰਤਿਪਾਲੇ ॥੧॥
 ਪ੍ਰਭ ਸਿਉ ਲਾਗਿ ਰਹਿਓ ਮੇਰਾ ਚੀਤੁ ॥ ਆਦਿ ਅੰਤਿ ਪ੍ਰਭੁ ਸਦਾ ਸਹਾਈ ਧੰਨੁ ਹਮਾਰਾ ਮੀਤੁ ॥ ਰਹਾਉ ॥
